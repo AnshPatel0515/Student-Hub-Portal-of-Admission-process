@@ -89,3 +89,31 @@ The StudentHub Portal follows a clean and user-friendly design approach using:
 
 The sitemap and wireframe help in planning the website structure and provide a clear understanding of the user experience before implementation.
 
+
+                                         OVER ALL WEBSITE FLOW
+
+User
+ |
+ |
+ v
+Home
+ |
+ +---- Register ----> Student Account
+ |
+ +---- Login -------> Dashboard
+                         |
+        --------------------------------
+        |          |          |
+     Profile    Events    Feedback
+
+
+Admin Login
+ |
+ v
+Admin Panel
+ |
+ +---- Students
+ |
+ +---- Events
+ |
+ +---- Feedback
