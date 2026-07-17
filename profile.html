@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>StudentHub | Profile</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<style>
+    /* ===============================
+        PROFILE PAGE DESIGN
+================================ */
+
+
+
+.profile-container{
+
+
+display:grid;
+
+grid-template-columns:
+300px 1fr;
+
+gap:30px;
+
+align-items:start;
+
+margin-top:40px;
+
+
+}
+
+
+
+
+.profile-card{
+
+
+background:white;
+
+padding:30px;
+
+text-align:center;
+
+border-radius:15px;
+
+box-shadow:
+0 5px 15px rgba(0,0,0,.15);
+
+
+}
+
+
+
+.profile-card img{
+
+
+width:150px;
+
+height:150px;
+
+object-fit:cover;
+
+border-radius:50%;
+
+border:5px solid #1565c0;
+
+margin-bottom:20px;
+
+
+}
+
+
+
+
+.profile-card h2{
+
+
+color:#1565c0;
+
+margin-bottom:10px;
+
+
+}
+
+
+
+
+.role{
+
+
+color:#666;
+
+font-size:18px;
+
+}
+
+
+
+
+
+.profile-details{
+
+
+background:white;
+
+padding:35px;
+
+border-radius:15px;
+
+box-shadow:
+0 5px 15px rgba(0,0,0,.15);
+
+
+}
+
+
+
+
+.profile-details h2{
+
+
+color:#1565c0;
+
+margin-bottom:25px;
+
+
+}
+
+
+
+
+.info p{
+
+
+padding:12px;
+
+border-bottom:1px solid #ddd;
+
+font-size:17px;
+
+
+}
+
+
+
+
+.info strong{
+
+
+color:#333;
+
+
+}
+
+
+
+
+
+.academic-section{
+
+
+margin-top:40px;
+
+
+}
+
+
+
+.academic-section h2{
+
+
+color:#1565c0;
+
+margin-bottom:25px;
+
+
+}
+
+
+
+
+.academic-cards{
+
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(220px,1fr));
+
+gap:25px;
+
+
+}
+
+
+
+
+
+.academic-cards article{
+
+
+background:white;
+
+padding:30px;
+
+text-align:center;
+
+border-radius:12px;
+
+box-shadow:
+0 5px 15px rgba(0,0,0,.12);
+
+border-top:5px solid #1565c0;
+
+
+}
+
+
+
+
+.academic-cards h3{
+
+
+color:#1565c0;
+
+
+}
+
+
+
+
+.academic-cards p{
+
+
+font-size:30px;
+
+font-weight:bold;
+
+margin-top:10px;
+
+
+}
+
+
+
+
+@media(max-width:768px){
+
+
+.profile-container{
+
+
+grid-template-columns:1fr;
+
+
+}
+
+
+.profile-card img{
+
+
+width:120px;
+
+height:120px;
+
+
+}
+
+}
+</style>
+
+<body>
+
+
+<header>
+
+<h1>StudentHub Portal</h1>
+
+
+
+
+</header>
+
+
+
+
+<div class="breadcrumb">
+
+<a href="index.html">Home</a> > Profile
+
+</div>
+
+
+
+
+
+<main>
+
+
+
+<section class="profile-container">
+
+
+<div class="profile-card">
+
+
+<img src="images/logo.png" 
+alt="Student profile photo">
+
+
+
+<h2>Ansh Patel</h2>
+
+<p class="role">
+B.TECH Student
+</p>
+
+
+
+</div>
+
+
+
+
+
+<div class="profile-details">
+
+
+<h2>Student Information</h2>
+
+
+<div class="info">
+
+
+<p>
+<strong>Enrollment ID:</strong>25DCE074
+</p>
+
+
+<p>
+<strong>Email:</strong>25dce074@gmail.com
+</p>
+
+
+<p>
+<strong>Phone:</strong>9274244194
+</p>
+
+
+<p>
+<strong>Course:</strong>B.TECH Computer Engineering
+</p>
+
+
+<p>
+<strong>Semester:</strong>3th Semester
+</p>
+
+
+<p>
+<strong>Address:</strong>Lunawada,Mahisagar,Gujarat
+</p>
+
+
+</div>
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+<section class="academic-section">
+
+
+<h2>Academic Performance</h2>
+
+
+
+<div class="academic-cards">
+
+
+
+<article>
+
+<h3>Attendance</h3>
+
+<p>
+92%
+</p>
+
+</article>
+
+
+
+
+<article>
+
+<h3>CGPA</h3>
+
+<p>
+8.75
+</p>
+
+</article>
+
+
+
+
+<article>
+
+<h3>Projects</h3>
+
+<p>
+3 Completed
+</p>
+
+</article>
+
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+</main>
+
+
+
+
+<footer>
+
+<p>
+© 2026 StudentHub Portal
+</p>
+
+</footer>
+
+
+
+</body>
+
+</html>

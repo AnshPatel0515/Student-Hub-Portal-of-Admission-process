@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>StudentHub | Login</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<style>
+    /* ===========================
+        LOGIN PAGE DESIGN
+=========================== */
+
+
+.login-container{
+
+
+    max-width:450px;
+
+    margin:50px auto;
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 8px 20px rgba(0,0,0,0.15);
+
+
+}
+
+
+
+.login-container h2{
+
+
+    text-align:center;
+
+    color:#1565c0;
+
+    margin-bottom:25px;
+
+
+}
+
+
+
+
+.login-container label{
+
+
+    display:block;
+
+    font-weight:bold;
+
+    margin-top:15px;
+
+    color:#333;
+
+
+}
+
+
+
+
+.login-container input[type="email"],
+
+.login-container input[type="password"]{
+
+
+    width:100%;
+
+    padding:13px;
+
+    margin-top:8px;
+
+    border:1px solid #ccc;
+
+    border-radius:6px;
+
+    font-size:16px;
+
+
+}
+
+
+
+
+
+.login-container input:focus{
+
+
+    outline:none;
+
+    border:2px solid #1565c0;
+
+}
+
+
+
+
+
+.remember{
+
+
+    display:flex;
+
+    align-items:center;
+
+    gap:8px;
+
+    margin-top:15px;
+
+
+}
+
+
+
+.remember input{
+
+
+    width:auto;
+
+
+}
+
+
+
+.remember label{
+
+
+    margin:0;
+
+    font-weight:normal;
+
+
+}
+
+
+
+
+.login-container button{
+
+
+    width:100%;
+
+    margin-top:25px;
+
+    padding:14px;
+
+    background:#1565c0;
+
+    color:white;
+
+    border:none;
+
+    border-radius:8px;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+
+}
+
+
+
+
+
+.login-container button:hover{
+
+
+    background:#0d47a1;
+
+
+}
+
+
+
+
+.register-link{
+
+
+    text-align:center;
+
+    margin-top:20px;
+
+
+}
+
+
+
+.register-link a{
+
+
+    color:#1565c0;
+
+    font-weight:bold;
+
+    text-decoration:none;
+
+
+}
+
+
+
+.register-link a:hover{
+
+
+    text-decoration:underline;
+
+
+}
+
+
+
+
+@media(max-width:768px){
+
+
+.login-container{
+
+
+    width:95%;
+
+    padding:25px;
+
+
+}
+
+
+}
+</style>
+<body>
+
+
+<header>
+
+<h1>StudentHub Portal</h1>
+
+
+
+</nav>
+
+</header>
+
+
+
+<div class="breadcrumb">
+
+<a href="index.html">Home</a> > Login
+
+</div>
+
+
+
+<main>
+
+
+<section class="login-container">
+
+
+<h2>Student Login</h2>
+
+
+<form>
+
+
+<label for="email">
+Email Address
+</label>
+
+
+<input
+type="email"
+id="email"
+name="email"
+placeholder="Enter your email"
+required>
+
+
+
+<label for="password">
+Password
+</label>
+
+
+<input
+type="password"
+id="password"
+name="password"
+placeholder="Enter your password"
+required>
+
+
+
+<div class="remember">
+
+<input type="checkbox" id="remember">
+
+<label for="remember">
+Remember Me
+</label>
+
+</div>
+
+
+
+<button type="submit">
+Login
+</button>
+
+
+
+<p class="register-link">
+
+Don't have an account?
+
+<a href="register.html">
+Register Now
+</a>
+
+</p>
+
+
+
+</form>
+
+
+</section>
+
+
+</main>
+
+
+
+
+<footer>
+
+<p>
+© 2026 StudentHub Portal
+</p>
+
+</footer>
+
+
+
+</body>
+
+</html>

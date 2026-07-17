@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>StudentHub | Dashboard</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<style>
+   
+
+
+.dashboard-banner{
+
+
+background:linear-gradient(
+135deg,
+#1565c0,
+#42a5f5
+);
+
+
+color:white;
+
+padding:50px 20px;
+
+text-align:center;
+
+border-radius:12px;
+
+margin-bottom:40px;
+
+
+}
+
+
+
+.dashboard-banner h2{
+
+
+font-size:38px;
+
+margin-bottom:15px;
+
+
+}
+
+
+
+
+
+.dashboard-cards{
+
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(220px,1fr));
+
+gap:25px;
+
+
+}
+
+
+
+
+.dashboard-card{
+
+
+background:white;
+
+padding:30px;
+
+text-align:center;
+
+border-radius:12px;
+
+box-shadow:
+0 5px 15px rgba(0,0,0,.15);
+
+border-top:5px solid #1565c0;
+
+transition:.3s;
+
+
+}
+
+
+
+
+
+.dashboard-card:hover{
+
+
+transform:translateY(-8px);
+
+
+}
+
+
+
+
+
+.dashboard-card h3{
+
+
+color:#1565c0;
+
+margin-bottom:15px;
+
+
+}
+
+
+
+
+.dashboard-card p{
+
+
+font-size:35px;
+
+font-weight:bold;
+
+color:#333;
+
+margin-bottom:8px;
+
+
+}
+
+
+
+
+.dashboard-card span{
+
+
+color:#666;
+
+font-size:15px;
+
+
+}
+
+
+
+
+
+
+.dashboard-content{
+
+
+display:grid;
+
+grid-template-columns:
+2fr 1fr;
+
+gap:25px;
+
+margin-top:40px;
+
+
+}
+
+
+
+
+
+.dashboard-content article,
+.dashboard-content aside{
+
+
+background:white;
+
+padding:30px;
+
+border-radius:12px;
+
+box-shadow:
+0 5px 15px rgba(0,0,0,.12);
+
+
+}
+
+
+
+
+
+.dashboard-content h2{
+
+
+color:#1565c0;
+
+margin-bottom:15px;
+
+
+}
+
+
+
+
+.dashboard-content li{
+
+
+margin:12px 0;
+
+}
+
+
+
+
+.dashboard-content a{
+
+
+color:#1565c0;
+
+text-decoration:none;
+
+font-weight:bold;
+
+
+}
+
+
+
+
+.dashboard-content a:hover{
+
+
+text-decoration:underline;
+
+
+}
+
+
+
+
+
+
+@media(max-width:768px){
+
+
+.dashboard-banner h2{
+
+
+font-size:30px;
+
+
+}
+
+
+
+.dashboard-content{
+
+
+grid-template-columns:1fr;
+
+
+}
+
+
+
+.dashboard-cards{
+
+
+grid-template-columns:1fr;
+
+}
+
+
+}
+</style>
+
+<body>
+
+
+<header>
+
+<h1>StudentHub Portal</h1>
+
+
+
+
+</nav>
+
+
+</header>
+
+
+
+
+<div class="breadcrumb">
+
+<a href="index.html">Home</a> > Dashboard
+
+</div>
+
+
+
+
+
+<main>
+
+
+
+<section class="dashboard-banner">
+
+
+<h2>
+Student Dashboard
+</h2>
+
+
+<p>
+Welcome Rahul, manage your academic activities here.
+</p>
+
+
+</section>
+
+
+
+
+
+
+<section class="dashboard-cards">
+
+
+<article class="dashboard-card">
+
+
+<h3>📚 Courses</h3>
+
+
+<p>
+5
+</p>
+
+
+<span>
+Enrolled Courses
+</span>
+
+
+</article>
+
+
+
+
+
+<article class="dashboard-card">
+
+
+<h3>📅 Attendance</h3>
+
+
+<p>
+92%
+</p>
+
+
+<span>
+Current Attendance
+</span>
+
+
+</article>
+
+
+
+
+
+
+<article class="dashboard-card">
+
+
+<h3>📝 Assignments</h3>
+
+
+<p>
+3
+</p>
+
+
+<span>
+Pending Tasks
+</span>
+
+
+</article>
+
+
+
+
+
+
+<article class="dashboard-card">
+
+
+<h3>🏆 CGPA</h3>
+
+
+<p>
+8.75
+</p>
+
+
+<span>
+Academic Score
+</span>
+
+
+</article>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+<section class="dashboard-content">
+
+
+<article>
+
+
+<h2>Recent Notices</h2>
+
+
+<ul>
+
+<li>Semester examination starts from 20 August 2026.</li>
+
+<li>Submit project report before deadline.</li>
+
+<li>New workshop registration is open.</li>
+
+</ul>
+
+
+</article>
+
+
+
+
+
+<aside>
+
+
+<h2>Quick Links</h2>
+
+
+<ul>
+
+<li><a href="profile.html">View Profile</a></li>
+
+<li><a href="events.html">Upcoming Events</a></li>
+
+<li><a href="feedback.html">Give Feedback</a></li>
+
+</ul>
+
+
+</aside>
+
+
+</section>
+
+
+
+
+</main>
+
+
+
+
+
+
+<footer>
+
+<p>
+© 2026 StudentHub Portal
+</p>
+
+</footer>
+
+
+
+
+</body>
+
+</html>

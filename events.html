@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>StudentHub | Events</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<style>
+    
+
+
+
+.event-banner{
+
+
+background:linear-gradient(
+135deg,
+#1565c0,
+#42a5f5
+);
+
+color:white;
+
+padding:50px 20px;
+
+text-align:center;
+
+border-radius:12px;
+
+margin-bottom:40px;
+
+
+}
+
+
+
+
+.event-banner h2{
+
+
+font-size:38px;
+
+margin-bottom:15px;
+
+
+}
+
+
+
+
+.event-table{
+
+
+background:white;
+
+padding:30px;
+
+border-radius:12px;
+
+box-shadow:
+0 5px 15px rgba(0,0,0,.12);
+
+}
+
+
+
+
+.event-table h2{
+
+
+color:#1565c0;
+
+margin-bottom:20px;
+
+
+}
+
+
+
+
+.event-table table{
+
+
+width:100%;
+
+border-collapse:collapse;
+
+
+}
+
+
+
+
+.event-table th{
+
+
+background:#1565c0;
+
+color:white;
+
+padding:15px;
+
+
+}
+
+
+
+
+.event-table td{
+
+
+padding:15px;
+
+border:1px solid #ddd;
+
+text-align:center;
+
+
+}
+
+
+
+
+.event-table tr:hover{
+
+
+background:#e3f2fd;
+
+
+}
+
+
+
+
+
+
+.event-cards{
+
+
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(250px,1fr));
+
+gap:25px;
+
+margin-top:40px;
+
+
+}
+
+
+
+
+
+.event-card{
+
+
+background:white;
+
+padding:30px;
+
+border-radius:12px;
+
+box-shadow:
+0 5px 15px rgba(0,0,0,.15);
+
+text-align:center;
+
+border-top:5px solid #1565c0;
+
+transition:.3s;
+
+
+}
+
+
+
+
+.event-card:hover{
+
+
+transform:translateY(-8px);
+
+
+}
+
+
+
+
+
+.event-card h3{
+
+
+color:#1565c0;
+
+margin-bottom:15px;
+
+
+}
+
+
+
+
+.event-card p{
+
+
+color:#555;
+
+line-height:1.7;
+
+
+}
+
+
+
+
+
+@media(max-width:768px){
+
+
+.event-banner h2{
+
+font-size:30px;
+
+}
+
+
+
+.event-table{
+
+overflow-x:auto;
+
+}
+
+
+
+.event-table table{
+
+min-width:600px;
+
+}
+
+
+
+.event-cards{
+
+grid-template-columns:1fr;
+
+}
+
+
+}
+</style>
+
+<body>
+
+
+<header>
+
+<h1>StudentHub Portal</h1>
+
+
+
+
+</nav>
+
+</header>
+
+
+
+
+<div class="breadcrumb">
+
+<a href="index.html">Home</a> > Events
+
+</div>
+
+
+
+
+
+<main>
+
+
+
+<section class="event-banner">
+
+
+<h2>
+Upcoming College Events
+</h2>
+
+
+<p>
+Stay updated with workshops, seminars and campus activities.
+</p>
+
+
+</section>
+
+
+
+
+
+
+<section class="event-table">
+
+
+<h2>
+Event Schedule
+</h2>
+
+
+<table>
+
+
+<thead>
+
+<tr>
+
+<th>Event Name</th>
+
+<th>Date</th>
+
+<th>Venue</th>
+
+<th>Time</th>
+
+</tr>
+
+</thead>
+
+
+
+<tbody>
+
+
+<tr>
+
+<td>Technical Workshop</td>
+
+<td>15 August 2026</td>
+
+<td>Seminar Hall</td>
+
+<td>10:00 AM</td>
+
+</tr>
+
+
+
+
+<tr>
+
+<td>Sports Day</td>
+
+<td>22 August 2026</td>
+
+<td>College Ground</td>
+
+<td>8:00 AM</td>
+
+</tr>
+
+
+
+
+
+<tr>
+
+<td>Cultural Fest</td>
+
+<td>05 September 2026</td>
+
+<td>Auditorium</td>
+
+<td>11:00 AM</td>
+
+</tr>
+
+
+
+
+<tr>
+
+<td>Placement Drive</td>
+
+<td>18 September 2026</td>
+
+<td>Conference Hall</td>
+
+<td>9:30 AM</td>
+
+</tr>
+
+
+
+</tbody>
+
+
+</table>
+
+
+</section>
+
+
+
+
+
+
+
+<section class="event-cards">
+
+
+<article class="event-card">
+
+
+<h3>💻 Workshop</h3>
+
+
+<p>
+
+Learn web development, AI and latest technologies.
+
+</p>
+
+
+</article>
+
+
+
+
+
+<article class="event-card">
+
+
+<h3>🏆 Hackathon</h3>
+
+
+<p>
+
+Participate in coding competitions and build innovative projects.
+
+</p>
+
+
+</article>
+
+
+
+
+
+<article class="event-card">
+
+
+<h3>🎓 Career Fair</h3>
+
+
+<p>
+
+Meet recruiters and explore career opportunities.
+
+</p>
+
+
+</article>
+
+
+
+
+</section>
+
+
+
+
+</main>
+
+
+
+
+
+
+<footer>
+
+<p>
+© 2026 StudentHub Portal
+</p>
+
+</footer>
+
+
+
+
+</body>
+
+</html>
